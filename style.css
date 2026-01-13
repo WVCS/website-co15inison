@@ -1,3 +1,43 @@
 body {
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: gray;
+}
+
+li a {
+  display: block;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rebeccapurple;
+  color: white;
+}
+
+div {
+  height: 90px;
+  width: 100%;
+  border: 1px solid #4CAF50;
+  padding: 8px;
+}
+
+body{
+	background-color:antiquewhite
+}
+
+img{
+	width: 500px
+}
+
+img:hover{
+	border:double blue 8px;
+	border-radius: 100%;
+	width: 800px
+}
 
 }
